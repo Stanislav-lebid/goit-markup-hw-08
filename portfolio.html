@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,26 +27,24 @@
         <div class="header-page__nav header-page__outer-margin">
           <!-- Логотип -->
           <a class="logo logo__header-page link" href="./index.html">
-            <span class="logo__first-half-header">Web</span><span class="logo__secondary-half-header">Studio</span>
+            <img src="./images/icons/WebStudio.svg" alt="">
           </a>
           <button class="button-header" type="button" data-mobile-menu-open>
-            <!-- <a class="button-header__link link" href="#"> -->
               <svg class="button-header__thumb-icon">
                 <use class="button-header__icon" href="./images/icons/sprite.svg#icon-menu_burger"></use>
               </svg>
-            <!-- </a> -->
           </button>
           <!-- Навігація -->
           <nav class="navigation">
             <ul class="navigation__list">
               <li class="navigation__item">
-                <a class="link navigation__link" href="./index.html">Студия</a>
+                <a class="link navigation__link" href="./index.html"><span class="current">Студія</span></a>
               </li>
               <li class="navigation__item">
-                <a class="link navigation__link" href="./portfolio.html"><span class="current"></span>Портфолио</span></a>
+                <a class="link navigation__link" href="./portfolio.html">Портфоліо</a>
               </li>
               <li class="navigation__item">
-                <a class="link navigation__link" href="#">Контакты</a>
+                <a class="link navigation__link" href="#">Контакти</a>
               </li>
             </ul>
           </nav>
@@ -74,21 +72,20 @@
         </div>
       </div>
     </header>
-    <!-- Унікальний контент -->
     <main>
       <!-- Секція наші пропозиції -->
       <section class="section-orders section">
           <div class="container">
-          <h1 class="visually-hidden">Нашы предложения</h1>
+          <h1 class="visually-hidden">Наші пропозиції</h1>
           <ul class="radio-button">
             <li class="radio-button__item radio-button__outer-margin">
-              <button class="radio-button__button" type="button">Все</button>
+              <button class="radio-button__button" type="button">Усі</button>
             </li>
             <li class="radio-button__item radio-button__outer-margin">
-              <button class="radio-button__button" type="button">Веб-сайты</button>
+              <button class="radio-button__button" type="button">Веб-сайти</button>
             </li>
             <li class="radio-button__item radio-button__outer-margin">
-              <button class="radio-button__button" type="button">Приложения</button>
+              <button class="radio-button__button" type="button">Додатки</button>
             </li>
             <li class="radio-button__item radio-button__outer-margin">
               <button class="radio-button__button" type="button">Дизайн</button>
@@ -97,25 +94,21 @@
               <button class="radio-button__button" type="button">Маркетинг</button>
             </li>
           </ul>
-          <!-- Фото наших пропозицій -->
+          <!-- Фото пропозицій -->
           <ul class="our-offers flex-box">
             <li class="our-offers__item our-offers__outer-margin flex-box">
               <a class="our-offers__link link flex-box" href="#">
                 <div class="our-offers__box-shadow flex-box">
                  <div class="our-offers__box flex-box">
                   <picture>
-                    <source media="(min-width:1200px)" srcset="./images/photo-portfolio/photo-technocrack.jpg 370w">
-                    <source media="(min-width:768px)" srcset="./images/photo-portfolio/photo-technocrack-354.jpg 354w, ./images/photo-portfolio/photo-technocrack-354@x2.jpg 708w">
-                    <source media="(min-width:300px)" srcset="./images/photo-portfolio/photo-technocrack-450.jpg 450w, ./images/photo-portfolio/photo-technocrack-450@x2.jpg 900w">
-                  <!-- sizes="(min-width:1200px) 25vw,(min-width:768px) 50vw, 100vw," -->
-                  <img class="our-offers__img"
-                  src="./images/photo-portfolio/photo-technocrack-450.jpg"
-                  alt="фото ноутбука из изображением сайта"
-                />
+                    <source media="(min-width:1200px)" srcset="./images/photo-portfolio/technocrack/photo-technocrack.jpg 370w">
+                    <source media="(min-width:768px)" srcset="./images/photo-portfolio/technocrack/photo-technocrack-354.jpg 354w, ./images/photo-portfolio/technocrack/photo-technocrack-354@x2.jpg 708w">
+                    <source media="(min-width:300px)" srcset="./images/photo-portfolio/technocrack/photo-technocrack-450.jpg 450w, ./images/photo-portfolio/technocrack/photo-technocrack-450@x2.jpg 900w">
+                  <img class="our-offers__img" src="./images/photo-portfolio/technocrack/photo-technocrack-450.jpg" alt=""/>
                   </picture>
                 <div class="our-offers__overlay">
                   <p class="our-offers__text">
-                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
                  </div>
@@ -131,18 +124,15 @@
                 <div class="our-offers__box-shadow flex-box">
                   <div class="our-offers__box flex-box">
                   <picture>
-                    <source media="(min-width:1200px)" srcset="./images/photo-portfolio/photo-poster.jpg 370w">
-                    <source media="(min-width:768px)" srcset="./images/photo-portfolio/photo-poster-354.jpg 354w, ./images/photo-portfolio/photo-poster-354@x2.jpg 708w">
-                    <source media="(min-width:300px)" srcset="./images/photo-portfolio/photo-poster-450.jpg 450w, ./images/photo-portfolio/photo-poster-450@x2.jpg 900w">
-                  <!-- sizes="(min-width:1200px) 25vw,(min-width:768px) 50vw, 100vw," -->
-                  <img class="our-offers__img"
-                    src="./images/photo-portfolio/photo-poster-450.jpg"
-                    alt="постер матча баскетбола"
+                    <source media="(min-width:1200px)" srcset="./images/photo-portfolio/poster/photo-poster.jpg 370w">
+                    <source media="(min-width:768px)" srcset="./images/photo-portfolio/poster/photo-poster-354.jpg 354w, ./images/photo-portfolio/poster/photo-poster-354@x2.jpg 708w">
+                    <source media="(min-width:300px)" srcset="./images/photo-portfolio/poster/photo-poster-450.jpg 450w, ./images/photo-portfolio/poster/photo-poster-450@x2.jpg 900w">
+                  <img class="our-offers__img" src="./images/photo-portfolio/poster/photo-poster-450.jpg" alt=""
                   />
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
@@ -169,7 +159,7 @@
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
@@ -196,7 +186,7 @@
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
@@ -223,7 +213,7 @@
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
@@ -250,7 +240,7 @@
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
@@ -277,7 +267,7 @@
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
@@ -304,7 +294,7 @@
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
@@ -331,7 +321,7 @@
                   </picture>
                   <div class="our-offers__overlay">
                     <p class="our-offers__text">
-                      Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p>
                   </div>
                    </div>
