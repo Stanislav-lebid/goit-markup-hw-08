@@ -1,4 +1,3 @@
-@import './utils/fonts';
 @import './utils/variables';
 @import './utils/normalize';
 @import './utils/mixins';
@@ -8,7 +7,6 @@
 
 @import './components/logo';
 @import './components/header-page.scss/header-page';
-@import './components/header-page.scss/header-page__logo';
 @import './components/header-page.scss/button-header';
 @import './components/mobile-menu';
 @import './components/navigation-mobile';
@@ -31,7 +29,6 @@
 @import './components/footer-page.scss/join-in';
 @import './components/footer-page.scss/submit';
 @import './components/footer-page.scss/form-submit';
-@import './components/form.scss/backdrop.is-hidden';
 @import './components/form.scss/backdrop';
 @import './components/form.scss/modal';
 @import './components/form.scss/form-field';
