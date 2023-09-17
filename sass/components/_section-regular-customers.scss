@@ -1,0 +1,69 @@
+/* Постійні клієнти */
+.section-regular-customers {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        @include media-min (450px) {
+            justify-content: space-between;
+        }
+        @include media-min (1200px) {
+            flex-wrap: nowrap;
+        }
+
+    }
+    &__item {
+        max-width: 210px;
+        width: 100%;
+
+        &:not(:last-child) {
+            @include media-max (450px){
+                margin: 0 0 1.875rem 0;
+            }
+        }
+        &:nth-child(-n + 4) {
+            @include media-min-max (374px, 768px){
+                margin: 0 0 1.875rem 0;
+            }
+        }
+        &:nth-child(-n + 3) {
+            @include media-max (1200px){
+                margin: 0 0 1.875rem 0;
+            }
+        }
+        
+        @include media-min (768px) {
+            max-width: 226px;
+        }
+        @include media-min (1200px){
+            margin: 0 0 0.937rem 0;
+            margin: 0 0 0 0;
+            max-width: 170px;
+        }
+    }
+    &__link {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem 2rem;
+        border: 1px solid var(--color-always-clients);
+        border-radius: 0.25rem;
+        transition: border var(--default-transition);
+        &:focus,
+        &:hover {
+            border: 1px solid var(--color-accent);
+        }
+    }
+    &__icon {
+        width: 6.625rem;
+        height: 3.75rem;
+        fill: var(--color-always-clients);
+        transition: fill var(--default-transition);
+        /* Постійні клієнти ховер, фокус */
+        .section-regular-customers__link:focus &,
+        .section-regular-customers__link:hover & {
+            fill: var(--color-accent);
+        }
+    }
+}
