@@ -525,12 +525,28 @@ main {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 768px) {
+  .section-benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -15px;
+  }
+}
 .section-benefits__item {
   width: 100%;
 }
 @media screen and (max-width: 1200px) {
   .section-benefits__item {
     padding: 0.937rem 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-benefits__item {
+    box-sizing: border-box;
+    width: calc(50% - 30px);
+    margin: 15px;
+    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) {

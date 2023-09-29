@@ -4,6 +4,12 @@
         @include media-min (1200px) {
             justify-content: space-between;
         }
+        @include media-min (768px) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: -15px;
+        }
     }
     &__item {
         width: 100%;
@@ -11,7 +17,10 @@
             padding: 0.937rem 0;
         }
         @include media-min (768px) {
-            // max-width: calc(50vw-15px);
+            box-sizing: border-box;
+            width: calc((50% - 30px));
+            margin: 15px;
+            padding: 0;
         }
         @include media-min (1200px) {
             max-width: 16.875rem;
