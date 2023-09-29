@@ -5,6 +5,20 @@
     padding: 0;
     width: 2.5rem;
     height: 2.5rem;
+    
+    // &:hover,
+    // &:focus {
+    //     fill: var(--color-accent);
+    // }
+
+    // &__link {
+    // fill: var(--color-primary);
+    //     &:hover,
+    //     &:focus {
+    //         fill: var(--color-accent);
+    //     }
+    // }
+
     &__thumb-icon{
         fill: var(--color-primary);
         display: block;
@@ -15,6 +29,9 @@
             fill: var(--color-accent);
         }
     }
+    // &__icon{
+    //     // []
+    // }
     @include media-min (768px) {
         display: none;
     }

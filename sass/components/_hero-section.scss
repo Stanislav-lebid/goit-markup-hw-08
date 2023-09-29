@@ -1,5 +1,6 @@
 $hero-image-gradient:linear-gradient(#2f303a66, #2f303a66);
 $shadow:0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+/* Герой */
 .hero-section {
     background-image: $hero-image-gradient, url('../images/photo-main/section-hero/hero-bg.jpg');
     background-color: var(--color-background-secondary);
@@ -70,6 +71,7 @@ $shadow:0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
         border: var(--color-accent);
         cursor: pointer;
         transition: background-color var(--default-transition);
+        /* Герой ховер, фокус */
         &:hover,
         &:focus {
             background-color: #2196f399 ; 

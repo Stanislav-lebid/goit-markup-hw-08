@@ -1,3 +1,4 @@
+/* Радіо кнопки */
 .radio-button { 
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +37,7 @@
         border var(--default-transition),
         box-shadow var(--default-transition),
         background-color var(--default-transition);
+        /* Радіо кнопки ховер, фокус */
         &:hover,
         &:focus {
             background-color: var(--color-background-accent);

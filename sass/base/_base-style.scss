@@ -1,3 +1,4 @@
+/* Контейнер */
 .container {
     max-width: 30rem;
     width: 100%;
@@ -21,8 +22,11 @@
 .flex-box {
     @include media-min (1200px) { 
         display: flex;
+        // flex-wrap: wrap;
     }
 }
+
+/* Властивості на все тіло */
 body {
     
     color: var(--color-primary);
@@ -35,6 +39,8 @@ body {
         font-size: 1rem;
     }
 }
+
+/* Стилі заголовки */
 .title {
     font-weight: 700;
     font-size: 1.75rem;
@@ -50,6 +56,8 @@ body {
     }
     
 }
+
+/* Стиль посилань */
 .link {
     color: var(--color-secondary);
     fill: var(--color-secondary);
@@ -59,6 +67,8 @@ body {
     letter-spacing: 0.02em; 
     text-decoration: none;
 }
+
+/* Мейн */
 main {
     background-color: var(--color-background-other);
 }

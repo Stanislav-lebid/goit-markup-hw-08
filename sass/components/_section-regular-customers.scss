@@ -1,3 +1,4 @@
+/* Постійні клієнти */
 .section-regular-customers {
     &__list {
         display: flex;
@@ -59,6 +60,7 @@
         height: 3.75rem;
         fill: var(--color-always-clients);
         transition: fill var(--default-transition);
+        /* Постійні клієнти ховер, фокус */
         .section-regular-customers__link:focus &,
         .section-regular-customers__link:hover & {
             fill: var(--color-accent);

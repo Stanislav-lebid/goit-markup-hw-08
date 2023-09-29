@@ -1,4 +1,9 @@
 .mobile-menu {
+    // max-height: 43rem;
+    // height: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
     &__button {
         position: absolute;
         top: 0.8rem;
@@ -22,6 +27,8 @@
 }
 .mobile-menu__thumb {
     height: 100vh;
+    // height: 43.75rem;
+    // height: 100%;
     padding: 3rem 2.5rem;
     display: flex;
     flex-direction: column;

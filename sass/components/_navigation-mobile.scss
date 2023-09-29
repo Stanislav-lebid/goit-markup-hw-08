@@ -1,3 +1,4 @@
+/* Навігація для тел*/
 .navigation-mobile {
     &__list {
         display: flex;
@@ -19,6 +20,7 @@
         padding: 0.5rem 0; 
         color: var(--color-primary);
         transition: color var(--default-transition);
+        /* Навігація ховер, фокус */
             &:hover,
             &:focus {
                 color: var(--color-accent);

@@ -1,3 +1,4 @@
+/* Наші переваги */
 .section-benefits {
     &__list {
         @include media-min (1200px) {
@@ -10,12 +11,15 @@
             padding: 0.937rem 0;
         }
         @include media-min (768px) {
+            // max-width: calc(50vw-15px);
         }
         @include media-min (1200px) {
             max-width: 16.875rem;
         }
     }
 
+    
+    /* Наші переваги icon */
     &__thumb {
         display: flex;
         justify-content: center;
@@ -31,6 +35,7 @@
         height: 4.375rem;
     }
     
+    /* Наші переваги текст */
     &__title {
         font-weight: 700;
         font-size: 0.875rem;

@@ -1,3 +1,4 @@
+/* Хедер */
 .header-page {
     background-color: var(--color-background-other);
     border-bottom: 1px solid var(--color-background-ground);
@@ -14,6 +15,8 @@
         @include media-max (1200px) {
             padding: 0.5rem 0 0.5rem 0;
         }
+        // margin-top: 1rem;
+        // margin-bottom: 1rem;
         @include media-min (1200px) {
             margin-top: 1.562rem;
             margin-bottom: 1.562rem;
@@ -25,17 +28,5 @@
             display: flex;
             justify-content: space-between;
         }
-    }
-}
-.logo__first-half-header {
-    color: var(--color-accent);
-}
-.logo__secondary-half-header {
-    color: var(--color-third);
-}
-
-@include media-min (1200px) {
-    .logo__header-page {
-        margin-right: 5.875rem;
     }
 }
