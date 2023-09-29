@@ -560,7 +560,7 @@ main {
   /* Герой ховер, фокус */
 }
 .hero-section__button:hover, .hero-section__button:focus {
-  background-color: rgba(33, 150, 243, 0.6);
+  background-color: #188CE8;
 }
 
 /* Наші переваги */
