@@ -1,52 +1,4 @@
 @charset "UTF-8";
-/* Шрифти
-@font-face {
-    font-family: 'Raleway';
-    src: local('Raleway') 
-        url('Raleway-Bold.woff2') format('woff2'),
-        url('Raleway-Bold.woff') format('woff'),
-        url('Raleway-Bold.ttf') format('truetype'),
-        url('Raleway-Bold.svg#Raleway-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: local('Roboto') 
-        url('Roboto-Bold.woff2') format('woff2'),
-        url('Roboto-Bold.woff') format('woff'),
-        url('Roboto-Bold.ttf') format('truetype'),
-        url('Roboto-Bold.svg#Roboto-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: local('Roboto') 
-        url('Roboto-Regular.woff2') format('woff2'),
-        url('Roboto-Regular.woff') format('woff'),
-        url('Roboto-Regular.ttf') format('truetype'),
-        url('Roboto-Regular.svg#Roboto-Regular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: local('Roboto') 
-        url('Roboto-Medium.woff2') format('woff2'),
-        url('Roboto-Medium.woff') format('woff'),
-        url('Roboto-Medium.ttf') format('truetype'),
-        url('Roboto-Medium.svg#Roboto-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-} */
 /* Змінні */
 :root {
   --color-primary: #212121;
@@ -679,7 +631,7 @@ main {
     flex-wrap: wrap;
   }
 }
-.box-employment-item {
+.box-employment__item {
   background-color: var(--color-background-other);
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
@@ -688,22 +640,22 @@ main {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  .box-employment-item:not(:last-child) {
+  .box-employment__item:not(:last-child) {
     margin-bottom: 1.875rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .box-employment-item:nth-child(-n+2) {
+  .box-employment__item:nth-child(-n+2) {
     margin-bottom: 1.875rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .box-employment-item {
+  .box-employment__item {
     max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .box-employment-item {
+  .box-employment__item {
     max-width: 270px;
   }
 }
@@ -757,8 +709,7 @@ main {
   transition: fill var(--default-transition), background-color var(--default-transition);
 }
 .messenger-icon__link:hover .messenger-icon__icon, .messenger-icon__link:focus .messenger-icon__icon {
-  fill: var(--color-background-other);
-  background-color: var(--color-background-accent);
+  fill: #fff;
 }
 
 /* Постійні клієнти */

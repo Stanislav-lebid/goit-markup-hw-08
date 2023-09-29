@@ -27,8 +27,7 @@
         background-color var(--default-transition);
         .messenger-icon__link:hover &,
         .messenger-icon__link:focus & {
-            fill: var(--color-background-other);
-            background-color: var(--color-background-accent);
+            fill: #fff;
         }
     }
 }
