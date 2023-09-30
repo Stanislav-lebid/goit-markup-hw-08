@@ -1,9 +1,7 @@
-/* Наша команда */
 .section-our-team {
     background-color: var(--color-background-third);
     justify-content: space-between;
 }
-// Бокс працівника
 .box-employment{
     justify-content: space-between;
     @include media-min (768px) {

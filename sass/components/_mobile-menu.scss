@@ -1,5 +1,4 @@
 .mobile-menu {
-    //pointer-events: none;
     &__button {
         position: absolute;
         top: 0.8rem;
@@ -30,7 +29,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 .mobile-menu__icon-thumb:hover, .mobile-menu__icon-thumb:focus{
     fill: #2196F3;
 }
