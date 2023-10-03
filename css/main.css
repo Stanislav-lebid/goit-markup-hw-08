@@ -263,6 +263,7 @@ main {
 
 .mobile-menu__icon-thumb:hover, .mobile-menu__icon-thumb:focus {
   fill: #2196F3;
+  cursor: pointer;
 }
 
 .navigation-mobile__list {
@@ -1150,7 +1151,6 @@ main {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
-  cursor: not-allowed;
   visibility: visible;
   opacity: 1;
   transition: transform var(--default-transition), visibility var(--default-transition), opacity var(--default-transition);
@@ -1338,6 +1338,7 @@ main {
   transition: fill var(--default-transition);
 }
 .button-header:hover .button-header__thumb-icon, .button-header:focus .button-header__thumb-icon {
+  cursor: pointer;
   fill: var(--color-accent);
 }
 @media screen and (min-width: 768px) {
@@ -1449,6 +1450,9 @@ main {
   padding: 0.5rem 0;
   color: var(--color-primary);
   transition: color var(--default-transition);
+}
+.navigation__link .current {
+  color: var(--color-accent);
 }
 .navigation__link .current::after {
   content: "";

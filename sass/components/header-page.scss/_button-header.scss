@@ -13,6 +13,7 @@
         transition: fill var(--default-transition);
         .button-header:hover &,
         .button-header:focus &{
+            cursor: pointer;
             fill: var(--color-accent);
         }
     }

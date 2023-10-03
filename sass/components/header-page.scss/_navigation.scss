@@ -13,6 +13,10 @@
         padding: 0.5rem 0; 
         color: var(--color-primary);
         transition: color var(--default-transition);
+            & .current{
+                color: var(--color-accent);
+                
+            }
             & .current::after {
                 content: "";
                 position: absolute;
